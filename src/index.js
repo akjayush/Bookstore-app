@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import FirstComponent from "./firstComponent"
 //import SecondComponent from "./SecondComponent"
-import NestedComponent from "./NestedComponent"
+//import NestedComponent from "./NestedComponent"
+import Bookstore from "./Bookstore"
 
 ReactDOM.render(
   <React.StrictMode>
-    <NestedComponent />
+    <Bookstore />
   </React.StrictMode>,
   document.getElementById('root')
 );
