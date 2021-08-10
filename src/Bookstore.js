@@ -4,6 +4,10 @@ function Bookstore() {
     return (
         <section>
             <Book />
+            <Book />
+            <Book />
+            <Book />
+            <Book />
             
         </section>
             
@@ -11,8 +15,14 @@ function Bookstore() {
 }
 
 const Book = () => {
-    return <article><Img></Img></article>
+    return <article>
+        <Img/>
+        <Title/>
+        <Author/>
+        </article>
 }
 const Img = () => <img src="https://images-eu.ssl-images-amazon.com/images/I/81l3rZK4lnL._AC_UL200_SR200,200_.jpg"
 alt=""></img>
+const Title = () => <h1>Ikigai</h1>
+const Author = () => <h3>Hector Garcia</h3>
 export default Bookstore
