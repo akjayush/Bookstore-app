@@ -1,8 +1,9 @@
 import React from 'react'
+import './index.css'
 
 function Bookstore() {
     return (
-        <section>
+        <section className="booklist">
             <Book />
             <Book />
             <Book />
